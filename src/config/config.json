@@ -1,0 +1,8 @@
+{
+  "app": {
+    "name": "test-backend-develop",
+    "version" : "1.0.0",
+    "build" : "20230203",
+    "port": 9002
+  }
+}

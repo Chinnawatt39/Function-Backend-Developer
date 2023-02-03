@@ -1,0 +1,163 @@
+{
+	"info": {
+		"_postman_id": "d3947478-0836-4c1a-9282-3ce9204b507e",
+		"name": "backend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25392694"
+	},
+	"item": [
+		{
+			"name": "ข้อ 1",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "ข้อ 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"text\" : \"boon\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9002/search/string",
+					"host": [
+						"localhost"
+					],
+					"port": "9002",
+					"path": [
+						"search",
+						"string"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ข้อ 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"bracket\" : \"())\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9002/check/bracket",
+					"host": [
+						"localhost"
+					],
+					"port": "9002",
+					"path": [
+						"check",
+						"bracket"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ข้อ 4",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9002/less/number",
+					"host": [
+						"localhost"
+					],
+					"port": "9002",
+					"path": [
+						"less",
+						"number"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ข้อ 5",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"bracket\" : \"())\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9002/check/bracket/all",
+					"host": [
+						"localhost"
+					],
+					"port": "9002",
+					"path": [
+						"check",
+						"bracket",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ข้อ 6",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"bracket\" : \"())\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9002/check/bracket/all",
+					"host": [
+						"localhost"
+					],
+					"port": "9002",
+					"path": [
+						"check",
+						"bracket",
+						"all"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
